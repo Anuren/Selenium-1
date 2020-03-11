@@ -31,7 +31,7 @@
 			<fileset dir="${ws.jars}" includes="*.jar" />
 		</path>
 		<taskdef name="testng" classpath="${test.classpath}" classname="org.testng.TestNGAntTask" />
-		<property name="testng.classpath" value="C:/jar/selenium-2.47.1/libs/testng-6.8.5.jar"/>
+		<property name="testng.classpath" value="/home/ubuntu/m/libs/testng-6.8.5.jar"/>
 	</target>
 
 	<!-- all -->
